@@ -1,3 +1,4 @@
+Creative Sound Blaster SDK
 
 This  file  contains important  and  latest information  of SBK
 version 2.00.
@@ -101,6 +102,3 @@ timing.
       This program  calls the MIDI Low  Level Interface functions to
       display the data from MIDI synthesizer keyboard.
 
-
-             ************ End of README.TXT ************
-
