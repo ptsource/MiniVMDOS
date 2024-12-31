@@ -77,7 +77,7 @@ Although PTSource MiniVMDOS is a real DOS system and can be installed in real ha
 * Samba Client 
 * Lynx, Gopher, WGET, Curl, FTP, IRC, RSYNC and more...
 * 100% Compatible with MS-DOS, PC-DOS, DR-DOS
-* Windows 3.11 Support
+* Windows 3.11 Enhanced Mode Support
 
 
 **Info :** Use login root and and password root in first login.
