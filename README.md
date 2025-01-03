@@ -82,6 +82,10 @@ Although PTSource MiniVMDOS is a real DOS system and can be installed in real ha
 
 **Info :** Use login root and and password root in first login.
 
+## MiniVMDOS Tribute
+
+MiniVMDOS pays tribute to [Gary Kildall](https://en.wikipedia.org/wiki/Gary_Kildall), the visionary pioneer behind CP/M and a key influence on modern operating systems, including DOS. Kildall's groundbreaking work laid the foundation for personal computing, enabling millions to harness the power of microcomputers. His innovation not only shaped the software industry but also inspired generations of developers. MiniVMDOS honors his legacy by keeping the spirit of simplicity, efficiency, and accessibility alive.
+
 ## Why use DOS at the present time?
 
 Using DOS, or Disk Operating System, offers several benefits despite being an older technology. Its simplicity provides users with a straightforward interface, making it easy to learn and use, even for those unfamiliar with computing. DOS requires minimal system resources, making it lightweight and ideal for running on older hardware or in embedded systems where efficiency is paramount. Additionally, DOS facilitates direct access to hardware, allowing for greater control and customization, which is advantageous for specialized applications or troubleshooting purposes. Its reliability and stability have stood the test of time, ensuring consistent performance for basic computing tasks. Overall, DOS remains a valuable tool for certain use cases, offering efficiency, reliability, and simplicity in operation.
@@ -89,10 +93,6 @@ Using DOS, or Disk Operating System, offers several benefits despite being an ol
 ## PTSource MiniVMDOS and the differences with other DOS(ES)
 
 PTSource MiniVMDOS is tailored specifically for programming and networking, designed to evoke the nostalgic charm of yesteryears' computing while seamlessly integrating modern conveniences. Is virtual environment is meticulously configured, offering a seamless experience akin to tinkering with emulated real hardware inside [PTSource MiniVM](https://wiki.ptsource.eu/soft/ptminivm/start). Every keystroke resonates with the spirit of traditional DOS programming, yet the system auto-configures effortlessly, sparing users the headaches of manual setup. Emulating authentic hardware nuances, it provides an immersive journey into the realm of retro programming, where creativity knows no bounds, and innovation flourishes in the timeless allure of classic computing.
-
-## MiniVMDOS Tribute
-
-MiniVMDOS pays tribute to [Gary Kildall](https://en.wikipedia.org/wiki/Gary_Kildall), the visionary pioneer behind CP/M and a key influence on modern operating systems, including DOS. Kildall's groundbreaking work laid the foundation for personal computing, enabling millions to harness the power of microcomputers. His innovation not only shaped the software industry but also inspired generations of developers. MiniVMDOS honors his legacy by keeping the spirit of simplicity, efficiency, and accessibility alive.
 
 
 **Note :** This software does not use a digitally signed installer, so
