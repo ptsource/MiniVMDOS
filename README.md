@@ -65,6 +65,7 @@ Although PTSource MiniVMDOS is a real DOS system and can be installed in real ha
 * ARJ & UNARJ
 * ZOO & UNZOO
 * TAR & GZIP
+* LHA
 * Joe and VIM Editor with CTAGS and XXD
 * NASM
 * Python
