@@ -43,9 +43,9 @@ Although PTSource MiniVMDOS is a real DOS system and can be installed in real ha
 * [PTSource ISO Creator](https://wiki.ptsource.eu/soft/ptminivm/utilities)  ISO file creator included
 * [PTSource Printer](https://wiki.ptsource.eu/soft/ptminivm/utilities) manager for host included
 * [PTSource Tools Disk](https://wiki.ptsource.eu/soft/mvmdos/tools_disk) hard drive tools included
-* [PTSource Guides](https://wiki.ptsource.eu/files_16bits) reader and compiler included
-* [PTSource Basic](https://wiki.ptsource.eu/files_16bits) interpreter and compiler included
-* [PTSource Calc](https://wiki.ptsource.eu/files_16bits) included
+* [PTSource Guides](https://wiki.ptsource.eu/files_16bits#ptguides) reader and compiler included
+* [PTSource Basic](https://wiki.ptsource.eu/files_16bits#ptbasic) interpreter and compiler included
+* [PTSource Calc](https://wiki.ptsource.eu/files_16bits#ptcalc) included
 * [PTSource X System](https://wiki.ptsource.eu/soft/mvmdos/x_system) included
 * DPMI support and VDM based multitasking
 * Multiuser session manager
