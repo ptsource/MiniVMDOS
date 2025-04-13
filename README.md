@@ -83,12 +83,12 @@ Although PTSource MiniVMDOS is a real DOS system and can be installed in real ha
 
 **Info :** Use login root and and password root in first login.
 
-## MiniVMDOS Extra Packages
+## Extra Packages
 
 MiniVMDOS uses [PTSource PTSGet](https://store.ptsource.eu/soft/ptsget/start) to maintain extra packages. [PTSource PTSGet](https://store.ptsource.eu/soft/ptsget/start) is a command-line package management tool used in PTSource distributions. It simplifies the process of installing, updating, and removing software packages. With a vast repository of precompiled packages provides access to a wide range of applications for users and administrators alike.
 See [here](https://store.ptsource.eu/soft/ptsget/start) all avaliable extra packages.
 
-## MiniVMDOS Tribute
+## Tribute
 
 MiniVMDOS pays tribute to [Gary Kildall](https://en.wikipedia.org/wiki/Gary_Kildall), the visionary pioneer behind CP/M and a key influence on modern operating systems, including DOS. Kildall's groundbreaking work laid the foundation for personal computing, enabling millions to harness the power of microcomputers. His innovation not only shaped the software industry but also inspired generations of developers. MiniVMDOS honors his legacy by keeping the spirit of simplicity, efficiency, and accessibility alive.
 
