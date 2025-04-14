@@ -85,7 +85,7 @@ Although PTSource MiniVMDOS is a real DOS system and can be installed in real ha
 
 ## Extra Packages
 
-MiniVMDOS uses [PTSource PTSGet](https://store.ptsource.eu/soft/ptsget/start) to maintain extra packages. [PTSource PTSGet](https://store.ptsource.eu/soft/ptsget/start) is a command-line package management tool used in PTSource distributions. It simplifies the process of installing, updating, and removing software packages. With a vast repository of precompiled packages provides access to a wide range of applications for users and administrators alike.
+PTSource MiniVMDOS uses [PTSource PTSGet](https://store.ptsource.eu/soft/ptsget/start) to maintain extra packages. [PTSource PTSGet](https://store.ptsource.eu/soft/ptsget/start) is a command-line package management tool used in PTSource distributions. It simplifies the process of installing, updating, and removing software packages. With a vast repository of precompiled packages provides access to a wide range of applications for users and administrators alike.
 See [here](https://store.ptsource.eu/soft/ptsget/start#ptsgetmvmdos) all avaliable extra packages.
 
 ## Tribute
