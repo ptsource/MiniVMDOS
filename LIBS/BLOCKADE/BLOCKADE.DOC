@@ -1,0 +1,336 @@
+         OVERVIEW
+
+         Blockade is a function library for C programmers which allows
+         your C programs to protect themselves against unauthorized
+         changes. Virus protection IMMEDIATELY comes to mind as its main
+         use, but there are more.
+    
+         BLOCKADE was written so that programs could check themselves.
+         from tampering. Those unexplainable times when a program runs 
+         but has some odd behavior that makes you suspect corruption,
+         virus related or not.
+
+         BLOCKADE checks every byte of your EXE or COM to insure that
+         changes are detected. Its algorithm is designed to be effective
+         but fast enough allow use in your programs.
+
+         Blockade is easy to use.  1 major function analyses your EXE
+         file and returns a status code indicating whether your file has
+         been altered.
+
+    
+        FEATURES
+
+         * Fast operation. A 40k EXE file can check itself in less
+           than 3 seconds on a 12 MHZ AT.
+    
+         * Ease of use.  A few #includes and only a handful
+           of additions are needed to use BLOCKADE. No changes to
+           your program's basic structure are necessary.
+    
+         * Expandable.  BLOCKADE can be modified to extend the
+           number and type checking methods you use.
+           The source code to BLOCKADE is available, allowing you to
+           create new checking methods unique to your application.
+    
+    
+         THEORY OF OPERATION
+    
+    
+         Blockade works via 2 pieces of code you add to your program.
+    
+         (1)  A special data structure "SIGNATUR.H", which is #include'd
+              in your program.  The structure reserves room for the
+              information BLOCKADE will need to analyze your program.
+    
+         (2)  The function blockade(), which checks your program for
+              alteration.
+    
+         After linking, a special program (BRAND.EXE) is run to find the
+         special string included by "SIGNATUR.H" in the data area of
+         your EXE file, calculate the checking information and overwrite
+         that area with the data blockade() needs to detect changes to
+         your file.  Once branded, your program can check itself for
+         changes each time it is run.
+
+
+    
+    
+    
+    
+         I HAVE TO RUN BRAND.EXE  EACH TIME I RELINK MY APPLICATION ?
+    
+    
+         That's the problem I had with other products similar to
+         BLOCKADE. The biggest headache was time - it seemed to take
+         forever for them to calculate and update my program.
+    
+         To combat that, ALOT of time went into the all the utilities to
+         make things FAST.  For example, on an 8 MHz AT, the Brand
+         utility will analyze and brand a 40 K .EXE file in less than 4
+         seconds.
+    
+         The same thing is true for your developed applications. Nobody
+         wants to wait 30-40 seconds every time they start your program
+         while it self checks.  The check algorithm in BLOCKADE is quick.
+         Running from a hard disk, I doubt anyone will notice the delay.
+    
+         I leave the BLOCKADE code linked in during development - to
+         take into account the effect it has on speed and memory use -
+         but have the program ignore any error codes until my final
+         production link.
+    
+
+
+
+    
+    
+         CONTENTS
+    
+    
+         This self extracting file should contain the following files:
+    
+    
+         blkade1.c       - the error message function used by BLOCKADE.
+         blkdmoms.lib    - Blockade demo library Microsoft 5.1 (Small model)
+         blkdmoml.lib    - Blockade demo library Microsoft 5.1 (Large model)
+         blkdmots.lib    - Blockade demo library Turbo C 2.01 (Small model)
+         blkdmotl.lib    - Blockade demo library Turbo C 2.01 (Large model)
+         blkdmobs.lib    - Blockade demo library Borland C++ 2.0 (Small model)
+         blkdmobl.lib    - Blockade demo library Borland C++ 2.0 (Large model)
+         brand.exe       - calculates your program's checkcode data
+                           and "brands" it into your .EXE file.
+         demo.c          - Demonstrates use of the Blockade function
+                           library.
+         demo.exe        - Demo program demonstrating BLOCKADE's use.
+         rundemo.bat     - Demonstrates use of the Blockade system.
+         mksig.exe       - Generates a SIGNATUR.H file.
+         signatur.h      - include file to be embedded in your program.
+         blkproto.h      - function prototypes for blockade functions.
+         read.me         - any last minute info.
+    
+    
+         COMPILER'S SUPPORTED
+    
+    
+         The test drive of BLOCKADE version comes with libraries for
+         Turbo C 2.0, Borland C++ 2.0 and Microsoft C 5.x.  I don't know
+         if these are usable with Microsoft 6.0.  According to Borland,
+         the C++ libraries are NOT reliably usable with Turbo C 2.0.
+         However, Turbo C++ and Borland C++ libraries do seem to be
+         compatible.
+
+    
+         The libraries were compiled with the following options.
+    
+         For TC   :   tc  -O -G -c  -ml(or s)
+    
+         For BCC  :   bcc -O -G -c  -ml(or s)
+    
+         For MSC  :   CL /W3 /Ox /Zi  /c /AL(or S)
+
+
+    
+    
+    
+         Below is an short program illustrating the BLOCKADE system.
+         (This is in fact a section of the DEMO program included in your
+         BLOCKADE package)
+    
+    
+    
+    
+         /* ------------------------------------------- */
+    
+         #include "blkproto.h"   /* function prototypes              */
+         #include "signatur.h"   /* holds the signature string       */
+    
+         /* ------------------------------------------- */
+    
+         main(int argc, char **argv)
+         {
+           char *sp;
+           int stat;
+    
+           printf("Checking myself for changes..\n");
+    
+           stat = blockade( argv[0], 8000);
+    
+           printf ("Results of file self check = %d\n", stat);
+    
+           sp = get_blk_err_msg( stat);
+           printf("The status my self check was \"%s\". \n", sp);
+    
+           return(0);
+         }
+    
+    
+         The above example illustrates how easy it is to add self
+         checking to your programs.
+    
+
+        Prototype :
+
+           int blockade( char *filename, int buffer_size);
+    
+    
+         Description:
+    
+         Attempts to open "filename" and analyze it for any alterations.
+    
+         Allocates "buffer_size"  bytes of dynamic memory for disk I/O
+         to improve scanning performance.  Allowable buffer sizes are
+         from BLKSIZ to approximately 30000 bytes inclusive.  Buffer
+         sizes outside this range are set to the closest allowable size
+         within the function.
+    
+         Returns 0 if no changes are detected, else returns a non-zero
+         status indicating the reason for failure.  The user's
+         application must decide what action to take based on the
+         status.
+    
+    
+         Example:
+    
+    
+            include "signatur.h"
+            stat = blockade( "DEMO.EXE", 1024);
+            if (status != 0)
+               {
+                 printf(" This file has be altered !!!\n");
+               }
+    
+            Attempts to open DEMO.EXE located int the current directory
+            and analyzes it for any changes.  Allocates 1024 bytes of
+            dynamic memory for disk I/O to speed things along.
+    
+            Prints an error message if any alteration if found.
+    
+
+
+    
+    
+    
+         Prototype :
+    
+           char *get_blk_err_msg( int status );
+    
+    
+         Description:
+    
+           Returns a READ ONLY pointer to a message relating to
+           the "status" code.  This message can then be used to explain
+           or document the error to the user.
+    
+           NOTE: The pointed to string must not be modified.
+                 Unpredictable operation may result if modification
+                 takes place. Make a copy of this string if you intend
+                 to alter it.
+    
+    
+    
+         Example:
+    
+            {
+            int status;
+    
+            status = blockade( "C:\BLOCK\BIN\MYSELF.EXE",  0);
+            if (status != 0)
+               {
+                 sp = get_blk_err_msg(stat);
+                 printf( "%s\n", sp );
+               }
+            return(status);
+            }
+    
+    
+            Attempts to open MYSELF.EXE located in subdirectory
+            C:\BLOCK\BIN and analyze it for any changes.
+    
+            Since 0 bytes (less than the minimum) were specified for
+            buffer, the minimum (BLKSIZ bytes) is used for disk
+            buffering.
+    
+            Prints an error message if any alteration if found or if
+            file cannot be successfully opened and analyzed.
+    
+
+
+    
+    
+    
+         MKSIG.EXE
+    
+         "Writes" an include which includes the references and data
+         space Blockade needs for operation.  You do not need to run
+         MKSIG.EXE unless you wish to change either the reserved data
+         size or signature string. However, there's no harm done if
+         you do.
+    
+         MKSIG's syntax is as follows :
+    
+         MKSIG "Signature string"   <array size> <output filename>
+    
+         "signature string"
+            the text BRAND.EXE should search for to locate Blockade's
+            data space. The default is "chk_signature". Note that the
+            signature string is case sensitive and spaces do count.
+            This string much match the string embedded in SIGNATUR.H.
+    
+         array size
+            The number of bytes that should be reserved by signatur.h.
+            This option is intended primarily for future use. User's may
+            wish to stuff additional info into this region such as
+            serial numbers or owner's names.
+    
+            The default is the minimum needed to hold blockade's info.
+    
+         output filename
+            The filename to use in case you don't like SIGNATUR.H.
+    
+    
+         EXAMPLE:
+    
+             MKSIG  "Brown Fox"  128  sig.h
+    
+    
+       BRAND.EXE
+
+         This is the program used to "brand"  your program with the
+         self-checking info needed at run time. You must BRAND your
+         program prior to distributing the program.
+    
+         Brand's syntax is as follows:
+    
+         BRAND   filename[.exe]   </s=signature_string> </n> </c>
+    
+         filename
+            The name of the file to brand. The extension .EXE is assumed
+            if no extension is specified.  Note that only executable
+            programs may be branded since the location of the checking
+            information is made known to blockade() function only during
+            linking.
+    
+         /s=signature_string (optional)
+    
+            Specifies the character string to look for. This string
+            must occur only once in your executable program.
+            The default string is "chk_signature". It must match the
+            string embedded in SIGNATUR.H.
+    
+         /n   (optional)
+    
+           Tells Brand not to verify the check value immediately after
+           it is calculated.  Using this option speeds the BRAND process
+           by  about 40%.  We recommend you use it once you feel
+           comfortable with BRAND's operation.
+    
+        /c=function  (optional, full version only)
+    
+           Specifies that BRAND use 1 of 3 (currently) available self
+           checking algorithms to brand the program.  The full version
+           of BLOCKADE allows you to specify at link time the algorithm
+           you desire to use. The specification handed to BRAND via
+           this switch must match that used in your program, else your
+           blockade() function will think your executable has been
+           altered.
