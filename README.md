@@ -35,6 +35,7 @@ Although PTSource MiniVMDOS is a real DOS system and can be installed in real ha
 
 * Runs contained inside [PTSource MiniVM](https://wiki.ptsource.eu/soft/ptminivm/start)
 * [PTSource PTSGET](https://wiki.ptsource.eu/soft/ptsget/start) package manager included
+* [PTSource MiniVMDOS SDK](https://store.ptsource.eu/soft/mvmdos/devel) available for developers
 * Network support and multiuser environment
 * Printing text to Windows printers
 * Transparent web and network access
