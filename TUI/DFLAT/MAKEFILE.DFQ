@@ -1,0 +1,50 @@
+#-------------------------------------------------------------------
+#        D - F L A T   M A K E F I L E  -  Borland C++ 4.0
+#                  (makes dflatq.lib for Quincy)
+#-------------------------------------------------------------------
+
+all : dflatq.lib huffc.exe fixhelp.exe
+
+# NOTE: Set DRIVE to match where you installed your compiler
+#-------------------------------------------------------------------
+DRIVE = c:\borlandc
+#-------------------------------------------------------------------
+MODEL = l
+#-------------------------------------------------------------------
+# NOTE: Delete the DEBUG and LINKDEBUG macros to 
+# build without debugging information in the .EXE
+#-------------------------------------------------------------------
+#DEBUG = -v
+#LINKDEBUG = /m /v
+#-------------------------------------------------------------------
+# NOTE: Temporary file space. Change to match
+#       your computer.
+#-------------------------------------------------------------------
+HEADERS=c:\temp\tcdef.sym
+#-------------------------------------------------------------------
+COMPILE = bcc -Od $(DEBUG) -DBCPP -c -d -m$(MODEL) -H=$(HEADERS)
+LINK= tlink $(LINKDEBUG) $(DRIVE)\lib\c0$(MODEL) 
+LIBS= $(DRIVE)\lib\c$(MODEL)
+#-------------------------------------------------------------------
+
+.c.obj:
+    $(COMPILE) {$*.c }
+
+dflatq.lib : window.obj video.obj message.obj                       \
+             mouse.obj console.obj textbox.obj listbox.obj          \
+             normal.obj menu.obj menubar.obj popdown.obj            \
+             rect.obj applicat.obj keys.obj sysmenu.obj editbox.obj \
+             dialbox.obj button.obj fileopen.obj msgbox.obj         \
+             helpbox.obj lists.obj statbar.obj decomp.obj           \
+             combobox.obj clipbord.obj search.obj dfalloc.obj       \
+             checkbox.obj text.obj radio.obj box.obj spinbutt.obj   \
+             watch.obj slidebox.obj direct.obj editor.obj
+    del dflatq.lib
+    tlib dflatq @dflatq.bld
+
+huffc.exe : huffc.obj htree.obj
+    $(LINK) huffc htree,$*.exe,$*,$(LIBS)
+
+fixhelp.exe : fixhelp.obj decomp.obj
+    $(LINK) fixhelp decomp,$*.exe,$*,$(LIBS)
+
