@@ -54,13 +54,12 @@ Although PTSource MiniVMDOS is a real DOS system and can be installed in real ha
 * Multiuser session manager
 * VESA Graphics
 * [MiniVMDOS Commander](https://wiki.ptsource.eu/soft/mvmdos/commander)
-* [MiniVMDOS Editor](https://wiki.ptsource.eu/soft/mvmdos/editor)
-* [MiniVMDOS RECALL Utility](https://wiki.ptsource.eu/soft/mvmdos/utilities)
+* [MiniVMDOS RECALL Utility](https://wiki.ptsource.eu/soft/mvmdos/utilities#recall)
 * [MiniVMDOS PTL Utility](https://wiki.ptsource.eu/soft/mvmdos/utilities)
-* [MiniVMDOS FILEC Utility](https://wiki.ptsource.eu/soft/mvmdos/utilities)
+* [MiniVMDOS FILEC Utility](https://wiki.ptsource.eu/soft/mvmdos/utilities#filec)
 * [MiniVMDOS User Manager](https://wiki.ptsource.eu/soft/mvmdos/utilities)
 * [MiniVMDOS Precision Pointer Mouse Driver](https://wiki.ptsource.eu/soft/mvmdos/utilities)
-* [MiniVMDOS Enhanced Disk Performance Driver](https://wiki.ptsource.eu/soft/mvmdos/utilities)
+* [MiniVMDOS Enhanced Disk Performance Driver](https://wiki.ptsource.eu/soft/mvmdos/utilities#vmcache)
 * [MiniVMDOS Clipboard Driver](https://wiki.ptsource.eu/soft/mvmdos/utilities)
 * [Online Help System](https://wiki.ptsource.eu/soft/mvmdos/tutorial)
 * UNIX and CMD style commands
