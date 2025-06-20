@@ -54,11 +54,12 @@ Although PTSource MiniVMDOS is a real DOS system and can be installed in real ha
 * Multiuser session manager
 * VESA Graphics
 * [MiniVMDOS Commander](https://wiki.ptsource.eu/soft/mvmdos/commander)
-* [MiniVMDOS RECALL Utility](https://wiki.ptsource.eu/soft/mvmdos/utilities#recall)
-* [MiniVMDOS PTL Utility](https://wiki.ptsource.eu/soft/mvmdos/utilities)
-* [MiniVMDOS FILEC Utility](https://wiki.ptsource.eu/soft/mvmdos/utilities#filec)
+* Image Viewer Included (gif|jpg|jpe|jfi|bmp|pcx)
+* Media Viewer Included (mpeg|fli|flc)
+* Docs Viewer Included (doc|wkb)
+* Spreadsheets Viewer Included (dbf|xls|wrk|wr1|wkt|wks|wkq|wk1)
+* Archives Extractor Included (zoo|zip|rar|pak|lzh|lim|lha|ice|hyp|arj|arc)
 * [MiniVMDOS User Manager](https://wiki.ptsource.eu/soft/mvmdos/utilities)
-* [MiniVMDOS Precision Pointer Mouse Driver](https://wiki.ptsource.eu/soft/mvmdos/utilities)
 * [MiniVMDOS Enhanced Disk Performance Driver](https://wiki.ptsource.eu/soft/mvmdos/utilities#vmcache)
 * [MiniVMDOS Clipboard Driver](https://wiki.ptsource.eu/soft/mvmdos/utilities)
 * [Online Help System](https://wiki.ptsource.eu/soft/mvmdos/tutorial)
