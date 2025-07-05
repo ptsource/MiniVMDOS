@@ -74,7 +74,6 @@ Although PTSource MiniVMDOS is a real DOS system and can be installed in real ha
 * Perl
 * TclSH
 * Bash, CSH and CMD interpreters
-* Mutt email client
 * PGPShell with PGP encryption
 * Dialog, BBOX
 * Samba Client
