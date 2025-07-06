@@ -5,7 +5,7 @@ DOS, or Disk Operating System, holds a significant place in computing history as
 # PTSource MiniVMDOS
 ### Current version 7 ([LTSR](LTSR.md)) updated 06/07/2025 for Windows
 
-PTSource MiniVMDOS is a professional operating system in the lineage of DOS operating systems intended to run legacy software inside [PTSource MiniVM](https://wiki.ptsource.eu/soft/ptminivm/start) for Windows x86 and x64. Integrates transparent web and network access seamlessly into its familiar command-line interface. Moreover, it introduces native support for printing text to Windows printers, streamlining document management across platforms. With network support, users can effortlessly collaborate and share resources in real-time, enhancing productivity and efficiency.
+PTSource MiniVMDOS is a professional operating system in the lineage of DOS operating systems intended to run legacy software inside [PTSource MiniVM](https://wiki.ptsource.eu/soft/ptminivm/start) for Windows x86 and x64. Although PTSource MiniVMDOS is a real DOS system and can be installed on real hardware or other virtual machines with the provided tools, it comes preconfigured and optimized for [PTSource MiniVM](https://wiki.ptsource.eu/soft/ptminivm/start) wich permits transparent web and network access seamlessly into its familiar command-line interface and moreover, it introduces native support for printing text to Windows printers, streamlining document management across platforms. With network support, users can effortlessly collaborate and share resources in real-time, enhancing productivity and efficiency.
 
 |  System requirements  |
 |         :---:         | 
@@ -18,18 +18,6 @@ PTSource MiniVMDOS is a professional operating system in the lineage of DOS oper
 ## Screenshots
 <img src="https://raw.githubusercontent.com/ptsource/PTMiniVMDOS/master/images/01B.PNG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/PTMiniVMDOS/master/images/02B.PNG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/PTMiniVMDOS/master/images/03B.PNG" width="33%">
 <img src="https://raw.githubusercontent.com/ptsource/PTMiniVMDOS/master/images/04B.PNG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/PTMiniVMDOS/master/images/05B.PNG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/PTMiniVMDOS/master/images/06B.PNG" width="33%">
-## Note
-Although PTSource MiniVMDOS is a real DOS system and can be installed in real hardware with the provided tools disk, it comes preconfigured and optimized for [PTSource MiniVM](https://wiki.ptsource.eu/soft/ptminivm/start).
-## PTSource MiniVM Emulated Hardware
-* Intel Pentium MMX Processor at 580 MHz
-* 64Mb SDRAM (default) 128Mb SDRAM (using the --extramem switch)
-* S3 ViRGE graphics chipset
-* Serial Mouse
-* Sound Blaster 16 Sound Card
-* Ne2000 Network Card
-* 3 Hard Drives (RAW Disk Image format)
-* 1 CDROM Drive (ISO Files)
-* 2 2.88 Mb Floppy Drives (IMG, IMA, FDI Files)
 
 ## Features 
 
