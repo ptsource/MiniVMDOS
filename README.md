@@ -33,6 +33,7 @@ PTSource MiniVMDOS is a professional operating system in the lineage of DOS oper
 * DPMI support and VDM based multitasking
 * Multiuser session manager
 * VESA Graphics
+* 300 DOS Commands and Utilities
 * [MiniVMDOS Commander](https://wiki.ptsource.eu/soft/mvmdos/commander)
 * Image Viewer Included (gif|jpg|jpe|jfi|bmp|pcx)
 * Media Viewer Included (mpeg|fli|flc)
