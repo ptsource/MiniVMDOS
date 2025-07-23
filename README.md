@@ -79,7 +79,7 @@ MiniVMDOS pays tribute to [Gary Kildall](https://en.wikipedia.org/wiki/Gary_Kild
 
 * Legacy Hardware and Software Support - Industrial and embedded systems (e.g., CNC equipment, medical devices, or lab systems) still rely on DOS-based software for control. Specialized software: Some critical business or scientific applications were written for DOS and haven't been updated.
 
-* Retro Gaming - Classic DOS games (like Doom, Commander Keen, or Prince of Persia) require a DOS environment. Enthusiasts use real hardware or emulators like DOSBox for an authentic experience.
+* Retro Gaming - Classic DOS games (like Doom, Commander Keen, or Prince of Persia) require a DOS environment. Enthusiasts use real hardware or emulators for an authentic experience.
 
 * Education and Learning - DOS is a great platform for teaching low-level computing concepts, like file systems, memory management, and command-line interfaces. Its ideal for understanding early PC architecture and OS design.
 
