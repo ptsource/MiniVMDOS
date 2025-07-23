@@ -77,19 +77,19 @@ MiniVMDOS pays tribute to [Gary Kildall](https://en.wikipedia.org/wiki/Gary_Kild
 
 ## Why use DOS at the present time?
 
-1. Legacy Hardware and Software Support
+* Legacy Hardware and Software Support
 Industrial and embedded systems: Many machines (e.g., CNC equipment, medical devices, or lab systems) still rely on DOS-based software for control.
 Specialized software: Some critical business or scientific applications were written for DOS and haven't been updated.
-2. Retro Gaming
+* Retro Gaming
 Classic MS-DOS games (like Doom, Commander Keen, or Prince of Persia) require a DOS environment.
 Enthusiasts use real hardware or emulators like DOSBox for an authentic experience.
-3. Education and Learning
+* Education and Learning
 DOS is a great platform for teaching low-level computing concepts, like file systems, memory management, and command-line interfaces.
-It’s ideal for understanding early PC architecture and OS design.
-4. Lightweight Computing
+Its ideal for understanding early PC architecture and OS design.
+* Lightweight Computing
 Runs well on very old or limited hardware where modern OSes are too heavy.
 DOS boot disks are useful for BIOS updates, partitioning, or data recovery.
-5. Hobby and Preservation
+* Hobby and Preservation
 Retrocomputing communities work to preserve and maintain vintage systems.
 
 While its obsolete for general-purpose use, DOS still has a niche but meaningful role in legacy support, education, hobbyist computing, and industrial systems. In the right hands, its still a useful and fascinating platform.
