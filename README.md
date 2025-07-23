@@ -78,16 +78,16 @@ MiniVMDOS pays tribute to [Gary Kildall](https://en.wikipedia.org/wiki/Gary_Kild
 ## Why use DOS at the present time?
 
 * Legacy Hardware and Software Support - Industrial and embedded systems (e.g., CNC equipment, medical devices, or lab systems) still rely on DOS-based software for control. Specialized software: Some critical business or scientific applications were written for DOS and haven't been updated.
+
 * Retro Gaming - Classic MS-DOS games (like Doom, Commander Keen, or Prince of Persia) require a DOS environment. Enthusiasts use real hardware or emulators like DOSBox for an authentic experience.
+
 * Education and Learning - DOS is a great platform for teaching low-level computing concepts, like file systems, memory management, and command-line interfaces. Its ideal for understanding early PC architecture and OS design.
+
 * Lightweight Computing - Runs well on very old or limited hardware where modern OSes are too heavy. DOS boot disks are useful for BIOS updates, partitioning, or data recovery.
+
 * Hobby and Preservation - Retrocomputing communities work to preserve and maintain vintage systems.
+
 * While its obsolete for general-purpose use, DOS still has a niche but meaningful role in legacy support, education, hobbyist computing, and industrial systems. In the right hands, its still a useful and fascinating platform.
-
-
-## PTSource MiniVMDOS and the differences with other DOS(ES)
-
-PTSource MiniVMDOS is tailored specifically for programming and networking, designed to evoke the nostalgic charm of yesteryears' computing while seamlessly integrating modern conveniences. Is virtual environment is meticulously configured, offering a seamless experience akin to tinkering with emulated real hardware inside [PTSource MiniVM](https://wiki.ptsource.eu/soft/ptminivm/start). Every keystroke resonates with the spirit of traditional DOS programming, yet the system auto-configures effortlessly, sparing users the headaches of manual setup. Emulating authentic hardware nuances, it provides an immersive journey into the realm of retro programming, where creativity knows no bounds, and innovation flourishes in the timeless allure of classic computing.
 
 
 **Note :** This software does not use a digitally signed installer, so
