@@ -62,7 +62,7 @@ PTSource MiniVMDOS is a professional operating system in the lineage of DOS oper
 * TCP/IP Netserver Client and Driver
 * Lynx, Gopher, WGET, FTP, IRC, RSYNC, VNC, SSH and more...
 * 100% Compatible with MS-DOS, PC-DOS, DR-DOS
-* Windows 3.11 Enhanced Mode Support
+* [Windows 3.11 Enhanced Mode Support](https://wiki.ptsource.eu/soft/mvmdos/screenshots#win311)
 
 
 **Info :** Use login root and and password root in first login.
