@@ -32,7 +32,6 @@ PTSource MiniVMDOS is a professional operating system in the lineage of DOS oper
 * [MiniVMDOS XSystem](https://wiki.ptsource.eu/soft/mvmdos/screenshots#xsystem) included
 * [MiniVMDOS Enhanced Memory Manager](https://wiki.ptsource.eu/soft/mvmdos/utilities#memmanager)
 * DPMI support and VDM based multitasking
-* Multiuser session manager
 * VESA Graphics
 * 300 DOS Commands and Utilities
 * [MiniVMDOS Commander](https://wiki.ptsource.eu/soft/mvmdos/screenshots#commander)
@@ -43,7 +42,6 @@ PTSource MiniVMDOS is a professional operating system in the lineage of DOS oper
 * Archives Extractor Included (zoo|zip|rar|pak|lzh|lim|lha|ice|hyp|arj|arc)
 * [MiniVMDOS User Manager](https://wiki.ptsource.eu/soft/mvmdos/utilities)
 * [MiniVMDOS Enhanced Disk Performance Driver](https://wiki.ptsource.eu/soft/mvmdos/utilities#vmcache)
-* [MiniVMDOS Clipboard Driver](https://wiki.ptsource.eu/soft/mvmdos/utilities)
 * [Online Help System](https://wiki.ptsource.eu/soft/mvmdos/tutorial)
 * UNIX and CMD style commands
 * ZIP & UNZIP
