@@ -41,6 +41,7 @@ PTSource MiniVMDOS is a professional operating system in the lineage of DOS oper
 * Spreadsheets Viewer Included (dbf|xls|wrk|wr1|wkt|wks|wkq|wk1)
 * Archives Extractor Included (zoo|zip|rar|pak|lzh|lim|lha|ice|hyp|arj|arc)
 * [MiniVMDOS User Manager](https://wiki.ptsource.eu/soft/mvmdos/utilities)
+* [MiniVMDOS Menu Shell](https://wiki.ptsource.eu/soft/mvmdos/utilities#menushell)
 * [MiniVMDOS Enhanced Disk Performance Driver](https://wiki.ptsource.eu/soft/mvmdos/utilities#vmcache)
 * [Online Help System](https://wiki.ptsource.eu/soft/mvmdos/tutorial)
 * UNIX and CMD style commands
