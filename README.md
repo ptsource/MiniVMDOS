@@ -22,7 +22,8 @@ PTSource MiniVMDOS is a multitasking, multiuser professional operating system in
 
 ## Features 
 
-* Runs contained inside [PTSource MiniVM](https://wiki.ptsource.eu/soft/ptminivm/start)
+* Runs in any capable x86 emulator (MiniVM, VirtualBOX, VMWare, QEMU) or in real hardware
+* Pre-configured installation inside [PTSource MiniVM](https://wiki.ptsource.eu/soft/ptminivm/start) avaliable
 * [PTSource PTSGET](https://wiki.ptsource.eu/soft/ptsget/start) package manager included
 * [PTSource MiniVMDOS SDK](https://store.ptsource.eu/soft/mvmdos/devel) available for developers
 * Network support and multiuser environment
