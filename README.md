@@ -32,12 +32,12 @@ PTSource MiniVMDOS is a multitasking, multiuser professional operating system in
 * [PTSource Guides](https://wiki.ptsource.eu/files_16bits#ptguides) reader and compiler included
 * [PTSource Basic](https://wiki.ptsource.eu/files_16bits#ptbasic) interpreter and compiler included
 * [PTSource Calc](https://wiki.ptsource.eu/files_16bits#ptcalc) included
+* [MiniVMDOS Commander](https://wiki.ptsource.eu/soft/mvmdos/screenshots#commander) included
 * [MiniVMDOS XSystem](https://wiki.ptsource.eu/soft/mvmdos/screenshots#xsystem) included
 * [MiniVMDOS Enhanced Memory Manager](https://wiki.ptsource.eu/soft/mvmdos/utilities#memmanager)
 * DPMI support and VDM based multitasking
 * VESA Graphics
 * 300 DOS Commands and Utilities
-* [MiniVMDOS Commander](https://wiki.ptsource.eu/soft/mvmdos/screenshots#commander)
 * Image Viewer Included (gif|jpg|jpe|jfi|bmp|pcx)
 * Media Viewer Included (mpeg|fli|flc)
 * Docs Viewer Included (doc|wkb)
