@@ -82,7 +82,7 @@ MiniVMDOS pays tribute to [Gary Kildall](https://en.wikipedia.org/wiki/Gary_Kild
 ## Watch the video
 
 <p align="center" width="100%">
-    <a href="https://www.youtube.com/watch?v=Tdj8gh9GPc4"><img src="/images/gary_kildall.png"></a> 
+    <a href="https://www.youtube.com/watch?v=Tdj8gh9GPc4" target="_blank"><img src="/images/gary_kildall.png" alt="Digital Research"></a> 
 </p>
 
 ## Why use DOS at the present time?
