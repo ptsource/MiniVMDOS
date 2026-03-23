@@ -79,7 +79,7 @@ See [here](https://repo.ptsource.eu/?dir=minivmdos) all avaliable extra packages
 
 MiniVMDOS pays tribute to [Gary Kildall](https://en.wikipedia.org/wiki/Gary_Kildall), the visionary pioneer behind CP/M and a key influence on modern operating systems, including DOS. Kildall's groundbreaking work laid the foundation for personal computing, enabling millions to harness the power of microcomputers. His innovation not only shaped the software industry but also inspired generations of developers. MiniVMDOS honors his legacy by keeping the spirit of simplicity, efficiency, and accessibility alive.
 
-## Watch the video
+## Gary Kildall Video
 
 <p align="center" width="100%">
     <a href="https://www.youtube.com/watch?v=Tdj8gh9GPc4" target="_blank"><img src="/images/gary_kildall.png" alt="Digital Research"></a> 
