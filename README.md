@@ -74,7 +74,7 @@ PTSource MiniVMDOS is a multitasking, multiuser professional operating system in
 ## Extra Packages
 
 PTSource MiniVMDOS uses [PTSource PTSGet](https://store.ptsource.eu/soft/ptsget/start) to maintain extra packages. [PTSource PTSGet](https://store.ptsource.eu/soft/ptsget/start) is a command-line package management tool used in PTSource distributions. It simplifies the process of installing, updating, and removing software packages. With a vast repository of precompiled packages provides access to a wide range of applications for users and administrators alike.
-See [here](https://repo.ptsource.eu/?dir=minivmdos) all avaliable extra packages.
+See [here](https://store.ptsource.eu/soft/ptsget/minivmdos) all avaliable extra packages.
 
 ## Tribute
 
