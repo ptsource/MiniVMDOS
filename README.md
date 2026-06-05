@@ -17,13 +17,8 @@ PTSource MiniVMDOS is a multitasking, multiuser professional operating system in
  [![Maintenance](/images/maintained.svg)](https://wiki.ptsource.eu/soft/mvmdos/start) [![You can download here.](/images/version-8-red.svg)](https://wiki.ptsource.eu/soft/mvmdos/start) [![You can download here.](/images/download-here-green.svg)](https://wiki.ptsource.eu/soft/mvmdos/start) [![Help here.](/images/docs-here-blue.svg)](https://wiki.ptsource.eu/soft/mvmdos/start)
 
 ## Screenshots
-### Console
 <img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/01B.PNG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/02B.PNG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/03B.PNG" width="33%">
 <img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/04B.PNG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/05B.PNG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/06B.PNG" width="33%">
-
-### XSystem
-<img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/01X.JPEG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/02X.JPEG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/03X.JPEG" width="33%">
-<img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/04X.JPEG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/05X.JPEG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/06X.JPEG" width="33%">
 
 ## Features 
 
