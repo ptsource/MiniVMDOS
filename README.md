@@ -102,5 +102,5 @@ MiniVMDOS pays tribute to [Gary Kildall](https://en.wikipedia.org/wiki/Gary_Kild
     <a href="https://store.ptsource.eu/soft/mvmdos/start" target="_blank"><img src="/images/bannerminivmdos.png" alt="PTSource MiniVMDOS"></a> 
 </p>
 
- [![Made in Europe](/images/madeeu.png)]  [![No AI used](/images/noai.png)]
+<img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/madeeu.png"><img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/noai.png">
 
