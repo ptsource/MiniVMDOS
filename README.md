@@ -19,6 +19,7 @@ PTSource MiniVMDOS is a multitasking, multiuser professional operating system in
 ## Screenshots
 <img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/01B.PNG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/02B.PNG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/03B.PNG" width="33%">
 <img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/04B.PNG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/05B.PNG" width="33%"><img src="https://raw.githubusercontent.com/ptsource/MiniVMDOS/master/images/06B.PNG" width="33%">
+[See more screenshots in the PTSource MiniVMDOS Gallery](https://minivmdos.ptsource.eu/)
 
 ## Features 
 
