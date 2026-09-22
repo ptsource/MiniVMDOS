@@ -95,9 +95,9 @@ MiniVMDOS pays tribute to [Gary Kildall](https://en.wikipedia.org/wiki/Gary_Kild
 * Lightweight Computing. Runs well on very old or limited hardware where modern OSes are too heavy. DOS boot disks are useful for BIOS updates, partitioning, or data recovery.
 * Hobby and Preservation. Retrocomputing communities work to preserve and maintain vintage systems. While its obsolete for general-purpose use, DOS still has a niche but meaningful role in legacy support, education, hobbyist computing, and industrial systems. In the right hands, its still a useful and fascinating platform.
 
-## Homepage
-
+## Homepage & Group
 [![Visit homepage.](/images/homepage-here-yellowgreen.svg)](https://wiki.ptsource.eu/soft/mvmdos/start)
+[![Visit group.](/images/facebook.svg)](https://www.facebook.com/groups/retrosoftware)
 
 <p align="center" width="100%">
     <a href="https://store.ptsource.eu/soft/mvmdos/start" target="_blank"><img src="/images/bannerminivmdos.png" alt="PTSource MiniVMDOS"></a> 
