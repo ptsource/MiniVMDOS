@@ -38,6 +38,7 @@ PTSource MiniVMDOS is a multitasking, multiuser professional operating system in
 * [MiniVMDOS XSystem](https://wiki.ptsource.eu/soft/mvmdos/screenshots#xsystem) included
 * [MiniVMDOS CP/M-80 Sub-System](https://wiki.ptsource.eu/soft/mvmdos/screenshots#cpm) included
 * [MiniVMDOS Enhanced Memory Manager](https://wiki.ptsource.eu/soft/mvmdos/utilities#memmanager)
+* [Internal TINY AI Neural Engine](https://wiki.ptsource.eu/soft/mvmdos/utilities#tiny)
 * DPMI support and VDM based multitasking
 * VESA Graphics
 * 300+ DOS Commands and Utilities
